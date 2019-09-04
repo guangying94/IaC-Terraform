@@ -19,10 +19,13 @@ Here's the modules built as of 4th Sep 2019.
 1. Linux VM
 1. Windows VM
 
-## Design variation
+## Design Variation
 1. Internet 3 Tier - For internet facing only application, with 3 tier architecture
+![Internet3Tier](/assets/Internet-3-Tier.jpg)
 1. Internet Zone - Internet section of a hybrid (Internet & Intranet) application
+![Internet](/assets/Internet.jpg)
 1. Intranet Zone - Intranet section of a hybrid (Internet & Intranet) application
+![Intranet](/assets/Intranet.jpg)
 
 ## Diagram
 Internet zone, with ASG and NSG configured. Please refer to nsg.xlsx for NSG rules configured.
