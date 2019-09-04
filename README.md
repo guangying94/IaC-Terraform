@@ -20,14 +20,18 @@ Here's the modules built as of 4th Sep 2019.
 1. Windows VM
 
 ## Design Variation
-1. Internet 3 Tier - For internet facing only application, with 3 tier architecture
+Network flow is control by Network Security Group and Application Security Group. Please refer to nsg.xlsx for NSG rules configured.
+
+#### 1. Internet 3 Tier
+For internet facing only application, with 3 tier architecture.
 ![Internet3Tier](/assets/Internet-3-Tier.jpg)
-1. Internet Zone - Internet section of a hybrid (Internet & Intranet) application
+
+#### 2. Internet Zone
+Internet section of a hybrid (Internet & Intranet) application.
 ![Internet](/assets/Internet.jpg)
-1. Intranet Zone - Intranet section of a hybrid (Internet & Intranet) application
+
+#### 3. Intranet Zone
+Intranet section of a hybrid (Internet & Intranet) application.
 ![Intranet](/assets/Intranet.jpg)
 
-## Diagram
-Internet zone, with ASG and NSG configured. Please refer to nsg.xlsx for NSG rules configured.
 
-![Internet](/assets/Internet.jpg)
